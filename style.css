@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#container{
+    width:600px;
+    height: 100vh;
+    margin:0 auto;
+    padding:0 40px;
+}
+#header h1{
+    text-align: center;
+    color: rgb(9, 84, 84);
+    margin:20px 0 40px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+#main-cal{
+    background-color: #eeeeee4e;
+}
+#main-cal-heading{
+    font-weight: bold;
+}
+#income-heading,#expese-heading,#total-expense-heading,#existing-balance,#saving-amount-heading,#remaining-amount-heading{
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#income,#food-cost,#rent-cost,#cloth-cost,#saving-percentage-amount{
+    margin-bottom:10px;
+    width:200px;
+    height:20px;
+    outline:0;
+    border:0;
+    padding:15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ddd;
+}
+#calculate-total-cost,#save-btn{
+    padding:5px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    outline:0;
+    border:0;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
